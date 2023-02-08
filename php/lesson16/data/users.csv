@@ -1,0 +1,9 @@
+name,email,password
+Alice,alice@test.com,$2y$10$CJd14cSdvxTucKhCehfZqu5L18IQq9LprpARj7iMdYYPTyi4VL8.G
+Bob,bob@test.com,$2y$10$et4bX.M8oht.ZytxuhZGye6NYoWDsfzBjaOeTjM9l9MDecrW/t0ni
+東京　太郎,tokyo@test.com,$2y$10$ctrK1W.q7/HEvh8HkWR8PevW4WM.ZWvIvjzYSoqVifRmc0RY99wLC
+Dan,dan@test.com,$2y$10$kWz.lfISiwIcugz.qcndCOPZlpLqPNQu7W6yGay2FZB.VPMD0KKyy
+Eric,eric@test.com,$2y$10$AWhVVZ8M2CSDGZrpjkS2DeMb8tnok5IN71JDOSKrukc4Q3JqNjLly
+Fred,fred@test.com,$2y$10$7U4TZeyuCNv54oV.t3ui9OF0wpN/DhfkArJte/3PRy.H6B1EjVmCy
+test,test@test.com,$2y$10$KfksTW7qPbLG0w43EhvdeekgHgEAVmcWNPyyWaA1Bg0dogpMEDlAa
+Haris,haris@test.com,$2y$10$Vt1Z/bljjOOLLlwYxY1MQOWDtzwSEjfuT3y2E77oQLZAI7MhSbA3i

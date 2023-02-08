@@ -1,0 +1,4 @@
+id,name,email,password
+1,Alice,alice@test.com,$2y$10$CJd14cSdvxTucKhCehfZqu5L18IQq9LprpARj7iMdYYPTyi4VL8.G
+2,Bob,bob@test.com,$2y$10$CJd14cSdvxTucKhCehfZqu5L18IQq9LprpARj7iMdYYPTyi4VL8.G
+3,Chris,chris@test.com,$2y$10$0dsnBq6WfUO1twuVITuJXedY4h7N6u0b8PqyqkdPSFxsUHGqJeiEa

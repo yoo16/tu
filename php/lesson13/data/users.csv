@@ -1,0 +1,4 @@
+name,email,password
+Alice,alice@test.com,$2y$10$r.zcvD7zAh0YW5evMFoBLOd5pnHbtFyztVKboMITEwNVmGcrVtdyO
+Bob,bob@test.com,$2y$10$et4bX.M8oht.ZytxuhZGye6NYoWDsfzBjaOeTjM9l9MDecrW/t0ni
+東京　太郎,tokyo@test.com,$2y$10$ctrK1W.q7/HEvh8HkWR8PevW4WM.ZWvIvjzYSoqVifRmc0RY99wLC

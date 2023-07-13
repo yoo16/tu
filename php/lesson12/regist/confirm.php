@@ -36,8 +36,9 @@ function validate(array $posts)
     }
     if (empty($posts['email'])) {
         $errors['email'] = "Emailを入力してください。";
+    } else if (isExistsEmail($posts['email'])) {
+        $errors['email'] = "Emailが既に存在します。";
     }
-    
     $length = mb_strlen($posts['password']);
     if (empty($posts['password'])) {
         $errors['password'] = "パスワードを入力してください。";
@@ -45,6 +46,17 @@ function validate(array $posts)
         $errors['password'] = "パスワードは4文字以上15文字以内で入力してください。";
     }
     return $errors;
+}
+
+function isExistsEmail($email)
+{
+    // ユーザ情報読み込み
+    $users = loadCSV(USER_CSV);
+    if (!$users) return;
+    // Emailデータ
+    $emails = array_column($users, 'email');
+    // Email検索
+    return in_array($email, $emails);
 }
 ?>
 
